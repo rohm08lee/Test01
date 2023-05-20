@@ -4,19 +4,19 @@
     android:layout_height="match_parent"
     android:orientation="horizontal">
 
-    <!--TextView
+    <TextView
     android:id="@+id/pretextView"
     android:layout_width="wrap_content"
-    android:layout_height="50dp"
+    android:layout_height="55dp"
     android:layout_gravity="center"
     android:textColor="@color/black"
     android:textSize="20sp"
-    android:text="Country - "/-->
+    android:text="Country - "/>
 
     <TextView
         android:id="@+id/listTextView"
         android:layout_width="fill_parent"
-        android:layout_height="500\dp"
+        android:layout_height="500dp"
         android:layout_gravity="center"
         android:textColor="@color/black"
         android:textSize="20sp"/>
