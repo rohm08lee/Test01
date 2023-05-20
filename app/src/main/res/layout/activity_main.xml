@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+                android:id="@+id/simpleListView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:divider="#f00"
+                android:dividerHeight="1dp"
+                android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="334dp"
+                android:layout_height="136dp"
+                android:layout_weight="1"
+                android:textColor="#000001"
+                android:text="Hello"
+                android:textSize="60sp" />
+
+            <Button
+                android:id="@+id/button1"
+                android:layout_width="333dp"
+                android:layout_height="182dp"
+                android:layout_weight="1"/>
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="333dp"
+                android:layout_height="182dp"
+                android:layout_weight="1" />
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="333dp"
+                    android:layout_height="182dp"
+                    android:layout_weight="1" />
+                <Button
+                    android:id="@+id/button4"
+                    android:layout_width="333dp"
+                    android:layout_height="182dp"
+                    android:layout_weight="1" />
+
+                <EditText
+                    android:id="@+id/editTextTime"
+                    android:layout_width="410dp"
+                    android:layout_height="67dp"
+                    android:layout_weight="2"
+                    android:ems="10"
+                    android:inputType="time"/>
+
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>
