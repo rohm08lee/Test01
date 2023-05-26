@@ -17,12 +17,12 @@ public class MainActivity extends Activity {
     /**
      * Called when the activity is first created.
      */
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Log.d(msg, "The onCreate() event");
-
 
         Button bt1 = findViewById(R.id.button1);
         bt1.setOnClickListener(new View.OnClickListener() {
@@ -54,5 +54,16 @@ public class MainActivity extends Activity {
                 startActivity(new Intent(MainActivity.this,ListActivity.class));
             }
         });
+        Button bt4 = findViewById(R.id.button4);
+        bt4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Log.d(msg, "The onClick() event");
+
+                // call subactvity
+                startActivity(new Intent(MainActivity.this,CustomListActivity.class));
+            }
+        });
+
     }
 }
